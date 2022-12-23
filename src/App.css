@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.app {
+  text-align: center;
+
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto';
+  width: 100%;
+  background-color:rgba(3, 1, 65, 1);
+  
+  
+}
+
+.menu{
+
+  background-color:rgba(3, 1, 65, 0.7);
+  backdrop-filter: blur(2px);
+  
+ 
+  width: 100vw;
+  height: 65px;
+  
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  justify-items: center;
+ 
+
+}
+.conteinerNav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -33px;
+  padding-top: 10px;
+  
+}
+
+
+ul,li,h1,h2,h3,p,div,a{
+  margin: 0;
+  border: 0;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+button{
+  font-family: 'Roboto';
+}
+
+
+
+h1{
+  color:#00c55f;
+  padding-top: 15px;
+}
+ li{
+  font-size: 16px;
+  padding-top: 10px;
+ }
+ a{
+  cursor: pointer;
+ }
+.assinatura{
+  color: rgba(194,0,197,1);
+  text-align: center;
+  float:center;
+  align-self: center;
+  margin-left: 15px;
+  font-family: 'Dancing Script', cursive;
+  display:inline-block;
+  text-align: center;
+  height: 100%;
+  
+  
+
+}
+ul{
+  display: inline-block;
+  justify-content: right;
+  margin-right: auto;
+
+}
+
+.smoothScroll{
+  display: inline-flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-self: center;
+  gap: 10px;
+  height: 100%;
+}
+
+.active{
+  border-bottom: 1px solid rgba(194,0,197,1);
+}
+.nav{
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+.navAtive{
+  display: inline-flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-self: center;
+  gap: 10px;
+  height: 100%;
+}
+@media only screen and (max-width: 545px){
+  .conteinerNav{
+    justify-self: center;
+
+  }
+  .smoothScroll{
+    display: none;
+  }
+  .assinatura{
+    margin-left: 130px;
+    font-size: 32px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .nav{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: auto;
+    cursor: pointer;
+    
+  }
+
+  .navAtive{
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-self: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    height: 170px;
+    background-color:rgba(3, 1, 65, 0.7);
+    backdrop-filter: blur(2px);
+    margin-top: 0px;
+    padding-left: 15px;
+  }
+
+
+}
+.sessao1{
+  background-image: url('./assets/image\ 16.png');
+  background-color:rgba(20, 6, 115, 1);
+  margin-top:55px ;
+  
+
+}
+
+.animation1{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  flex-direction: row;
+
+}
+.cerebro{
+  z-index: 0;
+}
+
+.buttons{
+  display: flex;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate3d(-50%, -50%, 0);
+  -moz-transform:translate3d(-50%, -50%, 0);
+  transform:translate3d(-50%, -50%, 0);
+  z-index: 1;
+  column-count: 2;
+  gap: 90px;
+
+
+
+}
+
+
+button{
+  cursor: pointer;
+  display: block;
+  height: 33px;
+  left: 40px;
+  top: 287px;
+  width: 97px;
+
+  background: rgba(3, 1, 64, 0.3);
+  box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.6);
+  
+  border-radius: 4px;
+  border: 0cm;
+  color: rgb(255, 255, 255);
+}
+
+button p{
+  backdrop-filter:none;
+}
+
+.designer{
+  font-size: 20px;
+  font-weight: bold;
+}
+.designer:hover{
+  background-color: #00c55f;
+}
+.designer:focus{
+  background-color: #00c55f;
+}
+.coder{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.coder:hover{
+  background-color: rgba(194, 0, 197,1) ;
+}
+.coder:focus{
+  background-color: rgba(194, 0, 197,1) ;
+}
+
+.openCoder{
+
+  display: grid;
+  z-index: 1;
+  position: relative;
+  margin-top: -305px;
+  margin-left: 50%;
+  
+  justify-content: center;
+  justify-items: center;
+  width: 50%;
+  height: 309px;
+  background-color: rgba(194, 0, 197, 0.382);
+  backdrop-filter: blur(2px);
+
+}
+
+.closeCoder{
+  display: none;
+}
+
+.openDesigner{
+
+  display: grid;
+  z-index: 1;
+  position: relative;
+  margin-top: -308px;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  background-color:#00c55f78;
+  backdrop-filter: blur(2px);
+}
+
+.closeDesigner{
+  display: none;
+}
+
+.coderSkill{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.coderSkill h4{
+  margin-right: 10px;
+}
+.designerSkill{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.designerSkill h4{
+  margin-left: 10px;
+}
+
+
+
+.sessao2{
+  background-image: url('./assets/image\ 16.png');
+  background-color:rgba(3, 1, 64, 1);
+  
+  justify-content: center;
+  
+
+
+}
+
+.containerProjetos{
+  max-width: 645px;
+  margin: auto;
+  margin-top: 10px;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  grid-auto-flow: row;
+  
+ grid-auto-rows: 300px;
+ grid-template-columns: repeat(auto-fill, minmax(50px, 170px));;
+}
+
+
+
+
+.projeto{
+  width: 150px;
+
+  background: rgba(3, 1, 64, 0.3);
+  backdrop-filter: blur(2px);
+  border-radius: 4px;
+  border: 0cm;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.containerProjetos div:nth-child(even){
+  background: rgba(28, 15, 116, 0.3);
+  
+}
+
+.imgProjeto{
+  width: 100%;
+  height: 200px;
+
+  margin-top: 5px;
+  object-fit: cover;
+  
+
+}
+
+.sessao3{
+  background-image: url('./assets/image\ 16.png');
+  background-color:rgba(20, 6, 115, 1);
+  align-items: center;
+
+}
+
+.sessao3 p{
+  width: 50%;
+  margin:0 auto;
+  text-align: center;
+  max-width: 500px;
+  margin-top: 10px;
+  
+}
+
+.sessao4{
+  background-image: url('./assets/image\ 16.png');
+  background-color:rgba(3, 1, 64, 1);
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.sessao4 a{
+  margin-top: 10px;
+}
+.whatsApp{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00c55f;
+  border-radius: 4px;
+  
+}
+.whatsApp:hover{
+  background-color: #00c55f;
+}
