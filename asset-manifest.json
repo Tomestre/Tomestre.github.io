@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f82e1533.css",
-    "main.js": "./static/js/main.e40c2ef0.js",
+    "main.css": "./static/css/main.a39625c9.css",
+    "main.js": "./static/js/main.4623b720.js",
     "static/js/787.be55e6d0.chunk.js": "./static/js/787.be55e6d0.chunk.js",
     "static/media/appFilmes.gif": "./static/media/appFilmes.e0e69c62452d026ff4cd.gif",
     "static/media/appClima.gif": "./static/media/appClima.13b4596b4ee5f79d0ff0.gif",
@@ -13,12 +13,12 @@
     "static/media/todo.gif": "./static/media/todo.38174b0e1f7dd270a404.gif",
     "static/media/cerebro.png": "./static/media/cerebro.f2043789d9279fff88c3.png",
     "index.html": "./index.html",
-    "main.f82e1533.css.map": "./static/css/main.f82e1533.css.map",
-    "main.e40c2ef0.js.map": "./static/js/main.e40c2ef0.js.map",
+    "main.a39625c9.css.map": "./static/css/main.a39625c9.css.map",
+    "main.4623b720.js.map": "./static/js/main.4623b720.js.map",
     "787.be55e6d0.chunk.js.map": "./static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f82e1533.css",
-    "static/js/main.e40c2ef0.js"
+    "static/css/main.a39625c9.css",
+    "static/js/main.4623b720.js"
   ]
 }
